@@ -1,0 +1,64 @@
+
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  flex-direction: column;
+   background-image: url("image/Assets/bg.png");
+   width: 100%;
+   height: calc(100vh - 60px);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.container .container-info,.section-center .section-info {
+    width: 70%;
+
+}
+.container .container-info h1 {
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}
+.container .container-info h1, 
+.section-center .section-info h2,
+.section-center .section-info p,
+.container .container-info p {
+    text-align: center;
+    
+}
+.container .container-info p {
+    line-height: 1.5;
+    color: white;
+}
+.container .button {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f4583f;
+    cursor: pointer;
+}
+.container .button button {
+    color: white;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.section-center {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    background: #eee;
+}
+.section-center .section-info {
+    padding-top: 100px;
+}
+.section-center .section-info h2 {
+    font-size: 50px;
+    color: #333;
+}
+.section-center .section-info p {
+    padding-top: 30px;
+    line-height: 1.5;
+}

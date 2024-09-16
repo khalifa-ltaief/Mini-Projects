@@ -1,0 +1,52 @@
+.sidebar-responsive {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 270px;
+    height: 100vh;
+    z-index: 10;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+.sidebar-responsive .left , 
+.sidebar-responsive .left .links,
+.sidebar-responsive .left .links a {
+    width: 100%;
+}
+.sidebar-responsive .left .links {
+    text-align: center;
+  
+}
+.sidebar-responsive .left .links a {
+    padding:  15px 10px;
+}
+.sidebar-responsive .left .links a:hover {
+    background:#cdcccc ;
+}
+.sidebar-responsive .left,
+.sidebar-responsive .left .links,
+.sidebar-responsive .buttons 
+ {
+    flex-direction: column;
+}
+.sidebar-responsive .buttons  {
+width: 80%;
+margin-top: 10px;
+}
+.sidebar-responsive .buttons a {
+    width: 100%;
+}
+.sidebar-responsive >a {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.sidebar-responsive .left .logo {
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
