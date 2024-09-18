@@ -1,0 +1,118 @@
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #222;
+}
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(
+    11deg,
+    rgba(122, 117, 201, 1) 0%,
+    rgba(122, 117, 201, 1) 37%,
+    rgba(106, 127, 194, 1) 42%,
+    rgba(202, 231, 237, 1) 100%
+  );
+  color: #fff;
+  margin: 20px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+  background-color: #ebfffc;
+}
+.search .button {
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background-color: #ebfffc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search .button svg {
+  width: 90px;
+  height: 40px;
+}
+.weather {
+    padding: 10px;
+}
+.weather img {
+  width: 160px;
+  margin-top: 40px;
+}
+.weather h1 {
+    padding-top: 20px;
+  font-size: 30px;
+}
+.weather h2 {
+  font-size: 40px;
+}
+.details {
+  display: flex;
+
+  align-items: center;
+  gap: 30px;
+}
+.details .col {
+    display: flex;
+    align-items: center;
+}
+.details .col img {
+  width: 100px;
+}
+.details .col div {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: end;
+    gap: 10px;
+}
